@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="myCanvas" width="669px" height="599px" style="border: 1px solid #d3d3d3"></canvas>
+<script>
+    /*
+    var ctx = document.getElementById("myCanvas").getContext("2d");
+    function Rectangle(length,width) {
+        this.length = length;
+        this.getLength = function () {
+            return this.length;
+        };
+        this.setLength = function (length) {
+            this.length = length;
+        };
+        this.width = width;
+        this.getWidth = function () {
+            return this.width
+        };
+        this.setWidth = function (width) {
+            this.width = width;
+        };
+        this.newRectangle = function (length,width) {
+            console.log("perimeter =" + (length + width) * 2 + "cm");
+            console.log("acreage =" + (length * width) + "cm2");
+        }
+    }
+    let myRectangle = new Rectangle(6,3);
+    let length = myRectangle.getLength();
+    let width = myRectangle.getWidth();
+    console.log("perimeter =" + (length + width) * 2 + "cm");
+    console.log("acreage =" + (length * width) + "cm2");
+
+     */
+</script>
+</body>
+<br>
+<br>
+<script>
+    var ctx = document.getElementById("myCanvas").getContext("2d");
+    function Rectangle(length,width) {
+        this.length = length;
+        this.getLength = function () {
+            return this.length;
+        };
+        this.setLength = function (length) {
+            this.length = length;
+        };
+        this.width = width;
+        this.getWidth = function () {
+            return this.width
+        };
+        this.setWidth = function (width) {
+            this.width = width;
+        };
+         this.newRectangle = function (length,width) {
+             console.log("chuvi =" + (length + width) * 2 + "cm");
+             console.log("dientich =" + (length * width) + "cm2");
+         };
+    }
+    let myRectangle = new Rectangle(7,6);
+    let length = myRectangle.getLength();
+    let width = myRectangle.getWidth();
+    console.log("chuvi = " + (length + width) * 2 + "cm");
+    console.log("dientich =" + (length * width) + "cm2");
+</script>
+</html>
